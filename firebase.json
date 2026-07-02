@@ -12,5 +12,34 @@
         "destination": "/index.html"
       }
     ]
+    ,
+    "headers": [
+      {
+        "source": "/bobbysmile_preview.jpg",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          },
+          {
+            "key": "Content-Type",
+            "value": "image/jpeg"
+          }
+        ]
+      },
+      {
+        "source": "/bobbysmile.jpg",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          },
+          {
+            "key": "Content-Type",
+            "value": "image/jpeg"
+          }
+        ]
+      }
+    ]
   }
 }

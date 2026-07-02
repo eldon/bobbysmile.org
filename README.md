@@ -1,1 +1,1 @@
-![](public/bobbysmile.jpeg)
+![](public/bobbysmile.jpg)
